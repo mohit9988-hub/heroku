@@ -1,0 +1,300 @@
+ - Trilogy Template'}, {u'date_created': u'2017-01-10T21:00:30.388737Z', u'date_
+modified': u'2017-01-10T21:01:31.962846Z', u'id': u'DxWKzJYQyBnvxBFBRfpuRW', u'n
+ame': u'General Contract'}, {u'date_created': u'2016-11-08T01:50:02.658318Z', u'
+date_modified': u'2016-11-08T01:50:02.658360Z', u'id': u'9nYURNknoeV5F3ChLZXSjP'
+, u'name': u'November Commission Structure template'}, {u'date_created': u'2016-
+11-04T15:56:33.977912Z', u'date_modified': u'2016-11-04T16:27:57.141679Z', u'id'
+: u'gfYTEM9MztdBs5UKKNj3ne', u'name': u'Onboarding Document'}, {u'date_created':
+ u'2016-11-01T21:43:29.572348Z', u'date_modified': u'2016-11-01T21:47:49.340876Z
+', u'id': u'ANptWuHkhqaDYebW9gzD5F', u'name': u'Introduction Web Embed'}, {u'dat
+e_created': u'2016-11-01T21:29:02.725567Z', u'date_modified': u'2016-11-01T21:29
+:02.725587Z', u'id': u'Y7EwFyBeaVjkZEjwQTL5A4', u'name': u'Introduction copy'},
+{u'date_created': u'2016-10-27T06:26:54.359553Z', u'date_modified': u'2016-10-27
+T06:27:49.970089Z', u'id': u'Pobxn2Y9bKAApSibuGShxH', u'name': u'PandaDoc Traini
+ng Manual'}, {u'date_created': u'2016-10-25T00:51:14.397679Z', u'date_modified':
+ u'2016-10-25T00:51:14.397706Z', u'id': u'G6j3JEn32GEVhVydWZzZpF', u'name': u'Co
+nsulting Agreement - Developer'}, {u'date_created': u'2016-10-19T20:39:07.991765
+Z', u'date_modified': u'2016-10-19T21:16:30.934751Z', u'id': u'7ozDcUjE6T34rxTjH
+SDEek', u'name': u'Introduction'}, {u'date_created': u'2016-10-11T19:24:14.13667
+2Z', u'date_modified': u'2016-10-12T17:30:40.251937Z', u'id': u'7B55uXZpbYDJ5c5P
+Y4mPx6', u'name': u'CG Standard Consulting Agreement to delete'}]}
+
+C:\Users\NRS\Desktop\Catalyst\pandadoc_int>cd ..
+
+C:\Users\NRS\Desktop\Catalyst>cd alokinplc-pandadocs-da2af36c076a\alokinplc-pand
+adocs-da2af36c076a\pandadocs
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a\pandadocs>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is CF7F-40D0
+
+ Directory of C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alo
+kinplc-pandadocs-da2af36c076a\pandadocs
+
+06/29/2017  11:17 AM    <DIR>          .
+06/29/2017  11:17 AM    <DIR>          ..
+06/21/2017  12:17 PM             5,984 api.py
+06/29/2017  11:17 AM             7,861 api.pyc
+06/21/2017  12:05 PM             1,885 tool.py
+01/20/2017  05:02 AM               118 __init__.py
+               4 File(s)         15,848 bytes
+               2 Dir(s)  93,471,592,448 bytes free
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a\pandadocs>python tool.py
+
+    This is the Pandadocs token tool built to make your use of Pandadocs a breez
+e.
+
+    First, you need to create an application on the PandaDocs developer portal:
+
+
+        https://app.pandadoc.com/developers/
+
+    After registering on the Developer portal, you need to enter some data below
+ to generate your tokens.
+
+Ready? Press Enter to continue.
+Enter the Client ID: 562ffb6a3c825e44d82e
+Enter the Client Secret: 4efa6b502a526e4a4cccdcb2fd219960eacb634e
+Enter the Redirect URI: https://www.pandadoc.com
+
+    We've opened a browser for your to complete the authorization at the URL:
+
+        https://app.pandadoc.com/oauth2/authorize?response_type=code&client_id=5
+62ffb6a3c825e44d82e&redirect_uri=https%3A%2F%2Fwww.pandadoc.com&scope=read+write
++read%2Bwrite&state=a2QV2YtwBxYSGp9XViy7YufJI9MyKF
+
+    After authorization, copy the URL you are redirected to. It might look somet
+hing like this:
+
+        https://www.pandadoc.com?state=<long state code>&code=<auth code>
+
+    You will be prompted to paste the callback URL containing your authorization
+ code.
+
+Ready? Press Enter to continue
+Enter the full callback URL: https://www.pandadoc.com/?state=a2QV2YtwBxYSGp9XViy
+7YufJI9MyKF&code=2885145c172ea8fe31ddcd4639373f21362fbb2d
+Authorization succeeded! Copy the token dict below and use it in your code. Here
+'s your token:
+
+{u'access_token': u'7651a43423952909c72d3c55824824771471eea1',
+ u'expires_at': 1530300107.188,
+ u'expires_in': 31535999,
+ u'refresh_token': u'92fed14b5dd49648b698ba77a6f8c99ac2cd2224',
+ u'scope': [u'read', u'write', u'read+write'],
+ u'token_type': u'Bearer'}
+
+
+Enjoy!
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a\pandadocs>cd ..
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a>cd ..
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a>cd ..
+
+C:\Users\NRS\Desktop\Catalyst>cd pandadoc_int
+
+C:\Users\NRS\Desktop\Catalyst\pandadoc_int>python app.py
+{u'results': [{u'date_created': u'2017-06-26T03:53:52.636363Z', u'date_modified'
+: u'2017-06-26T03:54:04.096974Z', u'id': u'rLPPipMXc7XDHrCfiHhXKE', u'name': u'i
+ntegration_test_tru'}, {u'date_created': u'2017-06-26T03:50:45.668590Z', u'date_
+modified': u'2017-06-26T03:50:45.668629Z', u'id': u'ksA5pVxTjsYD25Cu7b6h6X', u'n
+ame': u'W9 copy'}, {u'date_created': u'2017-06-21T17:39:06.918547Z', u'date_modi
+fied': u'2017-06-21T17:39:06.918589Z', u'id': u'Dimfhevs6F8oECjh6gaFLG', u'name'
+: u'Catalyst Group Development - Iowa State Course Capture Revision 1 template'}
+, {u'date_created': u'2017-06-06T20:49:37.530997Z', u'date_modified': u'2017-06-
+06T20:50:13.052608Z', u'id': u'5rZvopDgsacikB6rbh54RB', u'name': u'Catalyst Grou
+p Development - Standard Proposal template hourly (Zoho)'}, {u'date_created': u'
+2017-06-01T21:19:52.315081Z', u'date_modified': u'2017-06-01T21:19:52.315102Z',
+u'id': u'QzGUkeT8dJuGX4sofTHuNm', u'name': u'New template'}, {u'date_created': u
+'2017-05-29T17:56:12.701261Z', u'date_modified': u'2017-05-29T18:12:51.968689Z',
+ u'id': u'48n4TrfPFeBLa3u7k2aGQ2', u'name': u'Catalyst Group Development -  Temp
+late'}, {u'date_created': u'2017-05-26T22:32:30.821922Z', u'date_modified': u'20
+17-05-26T22:57:49.825362Z', u'id': u'4raV8i95kS6Qh6rDu9Umo2', u'name': u'Catalys
+t Group Development -  AdShare'}, {u'date_created': u'2017-05-22T17:26:42.243007
+Z', u'date_modified': u'2017-05-22T17:26:48.531115Z', u'id': u'GNRmT5ad2gVMwtV3v
+LaEtn', u'name': u'W9'}, {u'date_created': u'2017-05-22T17:20:11.249410Z', u'dat
+e_modified': u'2017-05-22T17:20:11.249430Z', u'id': u'nseKxeRKepufMedxm5rvTH', u
+'name': u'New template'}, {u'date_created': u'2017-05-22T17:19:22.230167Z', u'da
+te_modified': u'2017-05-22T17:19:22.230195Z', u'id': u'AMpGYUqkPTNsAYuKUhgnNK',
+u'name': u'newmass-w9'}, {u'date_created': u'2017-05-22T16:54:45.228781Z', u'dat
+e_modified': u'2017-05-22T16:54:45.228805Z', u'id': u'ddjMg3gunAQjtbYUUXzb5S', u
+'name': u'fw9'}, {u'date_created': u'2017-05-22T16:19:30.351121Z', u'date_modifi
+ed': u'2017-05-22T16:20:45.483474Z', u'id': u'Nu6wYrkkvawqvedCEvLWj3', u'name':
+u'Test Template (Delete)'}, {u'date_created': u'2017-05-22T16:18:56.330308Z', u'
+date_modified': u'2017-05-22T16:18:56.330354Z', u'id': u'K7yt7GMMMEhuT6i4hPUcmE'
+, u'name': u'New template'}, {u'date_created': u'2017-05-15T21:10:53.555844Z', u
+'date_modified': u'2017-05-15T21:11:08.330291Z', u'id': u'TMUpiwg62uNTWaAFGCZvv7
+', u'name': u'Catalyst Group Development - Standard Proposal template hourly'},
+{u'date_created': u'2017-04-27T23:48:15.374951Z', u'date_modified': u'2017-05-10
+T20:24:02.333000Z', u'id': u'JnaMMqPkDvUDX4ABodHD9R', u'name': u'Catalyst Group
+Development - Standard Proposal template for multilevel project'}, {u'date_creat
+ed': u'2017-04-21T17:25:27.646761Z', u'date_modified': u'2017-04-21T17:25:57.163
+446Z', u'id': u'iTo6tSHhN6KvRYJTsy9ttZ', u'name': u'Website Procurement Bid temp
+late'}, {u'date_created': u'2017-04-18T04:25:21.349445Z', u'date_modified': u'20
+17-04-18T04:25:21.349472Z', u'id': u'da8bbKhAyYPLqy5W7EREaQ', u'name': u'Catalys
+t Group Development - Standard Proposal template'}, {u'date_created': u'2017-04-
+04T20:01:02.448214Z', u'date_modified': u'2017-04-04T20:01:12.625668Z', u'id': u
+'egkGU8EaZH2e24JCFv8i4a', u'name': u'Consulting Agreement - Senior Account Manag
+er'}, {u'date_created': u'2016-10-12T17:23:20.147363Z', u'date_modified': u'2017
+-04-04T00:47:50.116025Z', u'id': u'MQjg3NWjfi2bMe4sxw2C2o', u'name': u'Agreement
+ for Consulting Services'}, {u'date_created': u'2017-04-04T00:38:54.280998Z', u'
+date_modified': u'2017-04-04T00:39:41.364119Z', u'id': u'BRuJeHa8kfPnpLYrKi7ePj'
+, u'name': u'Catalyst Group Development - Standard Proposal Template'}, {u'date_
+created': u'2017-03-17T16:37:37.097642Z', u'date_modified': u'2017-03-17T16:49:1
+5.149987Z', u'id': u'uCAkNEsAziTvKuwe7GZZhZ', u'name': u'Catalyst Group Developm
+ent - QDOBA Twin Cities Group Scope of Work'}, {u'date_created': u'2017-02-21T21
+:15:26.970874Z', u'date_modified': u'2017-02-21T22:03:13.819866Z', u'id': u'R2ym
+FvMSgCDJsanJZRh3Ci', u'name': u'Catalyst Group Development - Scope of Work'}, {u
+'date_created': u'2017-02-18T02:40:58.166234Z', u'date_modified': u'2017-02-18T0
+2:40:58.166253Z', u'id': u'4dCYn2raGX789wn9T7jB4H', u'name': u'Catalyst Group De
+velopment - Pureflix COntract template'}, {u'date_created': u'2017-02-17T20:27:5
+9.863016Z', u'date_modified': u'2017-02-17T20:28:28.332553Z', u'id': u'4hfRghSqs
+6afijYLeUzMWc', u'name': u'Marketing Commission Option'}, {u'date_created': u'20
+17-02-15T16:43:50.674255Z', u'date_modified': u'2017-02-15T16:44:16.200176Z', u'
+id': u'HijEv9zV6g2E6zVkvo67RM', u'name': u'Wordpress Development Proposal templa
+te'}, {u'date_created': u'2017-02-15T16:37:25.480803Z', u'date_modified': u'2017
+-02-15T16:37:42.381919Z', u'id': u'CqzBjoSeB2V7dUVjRaNhzY', u'name': u'CG Propos
+al for SEO - template'}, {u'date_created': u'2017-02-14T18:12:49.740143Z', u'dat
+e_modified': u'2017-02-14T18:12:49.740164Z', u'id': u't27t2422gXD4ER24crwLfJ', u
+'name': u'Website Development Agreement Template'}, {u'date_created': u'2017-02-
+14T17:47:55.530962Z', u'date_modified': u'2017-02-14T17:47:55.530988Z', u'id': u
+'N7wFttETcLbEpAwWgWehdV', u'name': u'Wordpress Development Template'}, {u'date_c
+reated': u'2017-02-14T17:45:59.919233Z', u'date_modified': u'2017-02-14T17:45:59
+.919254Z', u'id': u'yyziZsPWN5QqAWyS3NuhMD', u'name': u'Website Development Agre
+ement Template'}, {u'date_created': u'2017-02-13T22:18:37.027693Z', u'date_modif
+ied': u'2017-02-13T22:18:54.512839Z', u'id': u'6pUFZRRGN7UVXRbBaefQm9', u'name':
+ u'Catalyst_Retainer_Services - Scope of Work'}, {u'date_created': u'2017-02-03T
+20:47:21.878544Z', u'date_modified': u'2017-02-03T20:48:59.028614Z', u'id': u'HU
+ukbqae4FusF8cpuMtMQ8', u'name': u'CG Proposal Template - SEO and CRM for ILS'},
+{u'date_created': u'2017-01-18T23:22:04.929493Z', u'date_modified': u'2017-01-18
+T23:22:56.551613Z', u'id': u'XvExDj9nxDUm9DwMQBtcCD', u'name': u'Scope of Work'}
+, {u'date_created': u'2017-01-13T17:00:23.945849Z', u'date_modified': u'2017-01-
+13T17:11:48.238684Z', u'id': u'GBKE3uFxsQS9jteDffV6WJ', u'name': u'Project Kicko
+ff Guide'}, {u'date_created': u'2017-01-12T21:46:36.157312Z', u'date_modified':
+u'2017-01-12T21:46:55.032995Z', u'id': u'z3PUujTS3Gd59CV3MNtpwD', u'name': u'SOW
+ - Trilogy Template'}, {u'date_created': u'2017-01-10T21:00:30.388737Z', u'date_
+modified': u'2017-01-10T21:01:31.962846Z', u'id': u'DxWKzJYQyBnvxBFBRfpuRW', u'n
+ame': u'General Contract'}, {u'date_created': u'2016-11-08T01:50:02.658318Z', u'
+date_modified': u'2016-11-08T01:50:02.658360Z', u'id': u'9nYURNknoeV5F3ChLZXSjP'
+, u'name': u'November Commission Structure template'}, {u'date_created': u'2016-
+11-04T15:56:33.977912Z', u'date_modified': u'2016-11-04T16:27:57.141679Z', u'id'
+: u'gfYTEM9MztdBs5UKKNj3ne', u'name': u'Onboarding Document'}, {u'date_created':
+ u'2016-11-01T21:43:29.572348Z', u'date_modified': u'2016-11-01T21:47:49.340876Z
+', u'id': u'ANptWuHkhqaDYebW9gzD5F', u'name': u'Introduction Web Embed'}, {u'dat
+e_created': u'2016-11-01T21:29:02.725567Z', u'date_modified': u'2016-11-01T21:29
+:02.725587Z', u'id': u'Y7EwFyBeaVjkZEjwQTL5A4', u'name': u'Introduction copy'},
+{u'date_created': u'2016-10-27T06:26:54.359553Z', u'date_modified': u'2016-10-27
+T06:27:49.970089Z', u'id': u'Pobxn2Y9bKAApSibuGShxH', u'name': u'PandaDoc Traini
+ng Manual'}, {u'date_created': u'2016-10-25T00:51:14.397679Z', u'date_modified':
+ u'2016-10-25T00:51:14.397706Z', u'id': u'G6j3JEn32GEVhVydWZzZpF', u'name': u'Co
+nsulting Agreement - Developer'}, {u'date_created': u'2016-10-19T20:39:07.991765
+Z', u'date_modified': u'2016-10-19T21:16:30.934751Z', u'id': u'7ozDcUjE6T34rxTjH
+SDEek', u'name': u'Introduction'}, {u'date_created': u'2016-10-11T19:24:14.13667
+2Z', u'date_modified': u'2016-10-12T17:30:40.251937Z', u'id': u'7B55uXZpbYDJ5c5P
+Y4mPx6', u'name': u'CG Standard Consulting Agreement to delete'}]}
+
+C:\Users\NRS\Desktop\Catalyst\pandadoc_int>cd ..
+
+C:\Users\NRS\Desktop\Catalyst>cd ..
+
+C:\Users\NRS\Desktop>cd Catalyst\pandadoc_int
+
+C:\Users\NRS\Desktop\Catalyst\pandadoc_int>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is CF7F-40D0
+
+ Directory of C:\Users\NRS\Desktop\Catalyst\pandadoc_int
+
+06/29/2017  11:31 AM    <DIR>          .
+06/29/2017  11:31 AM    <DIR>          ..
+06/29/2017  11:24 AM             5,984 api.py
+06/29/2017  11:31 AM             6,916 api.pyc
+06/29/2017  12:23 PM             1,311 app.py
+06/29/2017  12:22 PM            21,006 pandakeys_tm.txt
+06/29/2017  11:11 AM                39 Procfile
+06/29/2017  11:11 AM               128 requirements.txt
+06/29/2017  11:11 AM                13 runtime.txt
+06/29/2017  11:31 AM                90 test.pdf
+               8 File(s)         35,487 bytes
+               2 Dir(s)  93,471,453,184 bytes free
+
+C:\Users\NRS\Desktop\Catalyst\pandadoc_int>cd ..
+
+C:\Users\NRS\Desktop\Catalyst>cd alokinplc-pandadocs-da2af36c076a\alokinplc-pand
+adocs-da2af36c076a\pandadocs
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a\pandadocs>dir
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is CF7F-40D0
+
+ Directory of C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alo
+kinplc-pandadocs-da2af36c076a\pandadocs
+
+06/29/2017  11:17 AM    <DIR>          .
+06/29/2017  11:17 AM    <DIR>          ..
+06/21/2017  12:17 PM             5,984 api.py
+06/29/2017  11:17 AM             7,861 api.pyc
+06/21/2017  12:05 PM             1,885 tool.py
+01/20/2017  05:02 AM               118 __init__.py
+               4 File(s)         15,848 bytes
+               2 Dir(s)  93,471,453,184 bytes free
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a\pandadocs>python tool.py
+
+    This is the Pandadocs token tool built to make your use of Pandadocs a breez
+e.
+
+    First, you need to create an application on the PandaDocs developer portal:
+
+
+        https://app.pandadoc.com/developers/
+
+    After registering on the Developer portal, you need to enter some data below
+ to generate your tokens.
+
+Ready? Press Enter to continue.
+Enter the Client ID: 94f790d3236110dd24b7
+Enter the Client Secret: 197c62ac673739ba2e377dee638ef9d6ea8eee05
+Enter the Redirect URI: https://www.pandadoc.com
+
+    We've opened a browser for your to complete the authorization at the URL:
+
+        https://app.pandadoc.com/oauth2/authorize?response_type=code&client_id=9
+4f790d3236110dd24b7&redirect_uri=https%3A%2F%2Fwww.pandadoc.com&scope=read+write
++read%2Bwrite&state=CRW4FkJV5aRfzQQLqFqkpHuuQzwNz1
+
+    After authorization, copy the URL you are redirected to. It might look somet
+hing like this:
+
+        https://www.pandadoc.com?state=<long state code>&code=<auth code>
+
+    You will be prompted to paste the callback URL containing your authorization
+ code.
+
+Ready? Press Enter to continue
+Enter the full callback URL: https://www.pandadoc.com/?state=CRW4FkJV5aRfzQQLqFq
+kpHuuQzwNz1&code=86a23a9c97e3dc5b03dd7ddca987cdbd1baa818a
+Authorization succeeded! Copy the token dict below and use it in your code. Here
+'s your token:
+
+{u'access_token': u'e40edc2563561bdc8164bed0363a265b0ecc94c9',
+ u'expires_at': 1530300448.978,
+ u'expires_in': 31535999,
+ u'refresh_token': u'5c74fb69008dbcbd9e57f7fed68c6c4004af529b',
+ u'scope': [u'read', u'write', u'read+write'],
+ u'token_type': u'Bearer'}
+
+
+Enjoy!
+
+C:\Users\NRS\Desktop\Catalyst\alokinplc-pandadocs-da2af36c076a\alokinplc-pandado
+cs-da2af36c076a\pandadocs>
